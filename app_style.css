@@ -1,0 +1,83 @@
+div {
+  background-color: #f0f0f0;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  line-height: 1.25;
+}
+label {
+    font-family: 'Open Sans';
+}
+
+input[type=checkbox]{
+border-radius: 8px;
+background: #f0f0f0;
+}
+
+input[type=checkbox]:hover {
+  background-color: #2bc5d6;
+  box-shadow:  -5px -5px 10px #25a7b6,
+               5px 5px 10px #31e3f6;
+}
+input[type=checkbox]:checked {
+  background: #2bc5d6;
+}
+input[type=checkbox]:checked + label{
+  text-decoration: line-through;
+}
+
+button {
+  font-family: 'Open Sans';
+  background-color: #2bc5d6;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/* HAMBURGER MENU*/
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #606060;
+  position: relative;
+  font-family: 'Open Sans';
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #222222;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #cccccc;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #2bc5d6;
+  color: white;
+}
