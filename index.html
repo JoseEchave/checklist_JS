@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Load CSS theme and js-->
+    <link rel="stylesheet" type="text/css" href="app_style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Checklist app</a>
+  <!-- Navigation links (hidden by default) Created with JS -->
+  <div id="myLinks">
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="hamburger_menu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<h2></h2>
+<ul id = "checklist">
+
+</ul>
+
+
+<button class="button" id="reset_all" onclick="toggle(this)">Reset list</button>
+
+</body>
+
+</html>
